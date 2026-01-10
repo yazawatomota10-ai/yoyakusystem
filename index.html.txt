@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>リンク集ホームページ</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            text-align: center;
+            padding: 50px 20px 30px;
+            background-color: #4CAF50;
+            color: white;
+        }
+        h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+        .card {
+            background-color: white;
+            width: 250px;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            text-align: center;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+        }
+        .card img {
+            width: 100%;
+            border-top-left-radius: 12px;
+            border-top-right-radius: 12px;
+        }
+        .card a {
+            display: block;
+            padding: 15px;
+            text-decoration: none;
+            color: white;
+            background-color: #4CAF50;
+            border-bottom-left-radius: 12px;
+            border-bottom-right-radius: 12px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+        .card a:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>リンク集ホームページ</h1>
+    </header>
+    <div class="container">
+        <div class="card">
+            <img src="https://via.placeholder.com/250x150?text=ファイル1" alt="ファイル1">
+            <a href="https://drive.google.com/file/d/1a2e1lgk7ZEOP4cBbij-swosDwwLMETb2/view?usp=drive_link" target="_blank">ファイル1を見る</a>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/250x150?text=ファイル2" alt="ファイル2">
+            <a href="https://drive.google.com/file/d/1HkJ7dqyfHReXZjAiiwG0iRKIMeIDjw1c/view?usp=drive_link" target="_blank">ファイル2を見る</a>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/250x150?text=カレンダー" alt="カレンダー">
+            <a href="https://calendar.app.google/o6RdTa8BW77QL4bi8" target="_blank">カレンダーを見る</a>
+        </div>
+    </div>
+</body>
+</html>
