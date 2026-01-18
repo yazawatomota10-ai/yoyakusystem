@@ -82,3 +82,17 @@ body {
     font-size: 1.6rem;
   }
 }
+
+/* トップCTA用 */
+.cta-top {
+  margin-top: -40px; /* メインビジュアルに少し食い込ませる */
+  background-color: #ffffff;
+  position: relative;
+  z-index: 2;
+}
+
+/* セクション余白調整 */
+.cta-top .section-title {
+  margin-top: 40px;
+}
+
